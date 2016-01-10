@@ -6,7 +6,7 @@
   "scripts": {
     "test": "flow",
     "build": "flow && babel src --out-dir build && WEBPACK=release webpack",
-    "watch": "babel src --out-dir build --watch & webpack-dev-server"
+    "start": "babel src --out-dir build --watch & webpack-dev-server"
   },
   "repository": {
     "type": "git",

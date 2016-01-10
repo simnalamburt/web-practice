@@ -18,7 +18,7 @@ open index.html
 
 # Build everything in watch mode
 # Go to http://localhost:8080/webpack-dev-server/
-npm run watch
+npm start
 ```
 
 I made this repo to use this as boilerplate.
