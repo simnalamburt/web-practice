@@ -5,7 +5,7 @@
   "main": "build/main.js",
   "scripts": {
     "test": "flow",
-    "build": "flow && babel src --out-dir build && webpack",
+    "build": "flow && babel src --out-dir build && WEBPACK=release webpack",
     "watch": "babel src --out-dir build --watch & webpack-dev-server"
   },
   "repository": {

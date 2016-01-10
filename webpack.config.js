@@ -1,6 +1,9 @@
-var webpack = require("webpack");
+var webpack = require('webpack');
 
-var optUglify = { compress: { warnings: false } };
+var plugins = [];
+if (process.env.WEBPACK === 'release') {
+  plugins.push(new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } }));
+}
 
 module.exports = {
   entry: './build/main.js',
@@ -10,7 +13,5 @@ module.exports = {
     filename: '_bundle.js'
   },
   devtool: 'source-map',
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin(optUglify)
-  ]
+  plugins: plugins
 };
