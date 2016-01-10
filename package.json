@@ -1,0 +1,26 @@
+{
+  "name": "react-practice",
+  "version": "0.0.0",
+  "description": "React Practice",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "flow",
+    "build": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simnalamburt/react-practice.git"
+  },
+  "author": "simnalamburt",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/simnalamburt/react-practice/issues"
+  },
+  "homepage": "https://github.com/simnalamburt/react-practice#readme",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.3.13",
+    "flow-bin": "^0.20.1"
+  }
+}
