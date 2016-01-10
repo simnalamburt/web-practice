@@ -1,1 +1,4 @@
-console.log('Hello, world!');
+ReactDOM.render(
+  <h1>Hello, React!</h1>,
+  document.getElementById('example')
+);

@@ -5,7 +5,8 @@
   "main": "build/main.js",
   "scripts": {
     "test": "flow",
-    "build": "babel src --out-dir build"
+    "build": "babel src --out-dir build",
+    "watch": "babel src --out-dir build --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
     "babel-cli": "^6.4.0",
     "babel-preset-react": "^6.3.13",
     "flow-bin": "^0.20.1"
+  },
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
   }
 }
