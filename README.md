@@ -20,6 +20,8 @@ open index.html
 ```
 
 ### WOW
+All javascripts in `src/` directory and all js libraries will be merged into one
+`build/_bundle.js`
 ```html
 <!DOCTYPE html>
 <html>
