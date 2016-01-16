@@ -4,8 +4,8 @@
   "description": "React Practice",
   "main": "build/main.js",
   "scripts": {
-    "test": "cd src && flow",
-    "build": "(cd src && flow) && babel src --out-dir build && WEBPACK=release webpack",
+    "test": "flow",
+    "build": "flow && babel src --out-dir build && WEBPACK=release webpack",
     "start": "babel src --out-dir build --watch & webpack-dev-server"
   },
   "repository": {
