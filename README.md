@@ -1,27 +1,23 @@
 [Flow] + [Babel] + [React] + [Webpack] = *Promised Victory*
 --------
-Do frontend development in modern and safe way **Right Now**.
-
-[Flow]: http://flowtype.org/
-[Babel]: https://babeljs.io/
-[React]: https://facebook.github.io/react/
-[Webpack]: https://webpack.github.io/
+Do frontend development in modern and safe way **Right Now**. Please use this
+repository as boilerplate.
 
 ```shell
 # Install dependencies
 npm install
 
-# Build everything
-npm test
-npm run build
-open index.html
-
-# Build everything in watch mode
+# Build everything in watch mode (babel + webpack)
 # Go to http://localhost:8080/webpack-dev-server/
 npm start
-```
 
-I made this repo to use this as boilerplate.
+# Type checking (flow)
+npm test
+
+# Build everything in production mode (flow + babel + webpack + minify)
+npm run build
+open index.html
+```
 
 ### WOW
 ```html
@@ -51,3 +47,8 @@ ReactDOM.render(
   document.getElementById('example')
 );
 ```
+
+[Flow]: http://flowtype.org/
+[Babel]: https://babeljs.io/
+[React]: https://facebook.github.io/react/
+[Webpack]: https://webpack.github.io/
