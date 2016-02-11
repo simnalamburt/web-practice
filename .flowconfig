@@ -1,4 +1,3 @@
 [ignore]
-.*/node_modules/babel-helper-builder-binary-assignment-operator-visitor
-.*/node_modules/babel-helper-remap-async-to-generator
+.*/node_modules/babel-*
 .*/node_modules/fbjs
