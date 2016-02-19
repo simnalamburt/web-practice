@@ -3,20 +3,15 @@
 Do frontend development in modern and safe way **Right Now**. Please use this
 repository as boilerplate.
 
-```shell
-# Install dependencies
+```bash
 npm install
 
-# Build everything in watch mode (babel + webpack)
-# Go to http://localhost:8080/webpack-dev-server/
-npm start
-
-# Type checking (flow)
-npm test
-
-# Build everything in production mode (flow + babel + webpack + minify)
-npm run build
+npm test        # Static type check (flow)
+npm run build   # Build everything at once
 open index.html
+
+npm start       # Do everything excep flow in watch mode
+                # Go to http://localhost:8080/webpack-dev-server/
 ```
 
 ### WOW
@@ -37,7 +32,7 @@ All javascripts in `src/` directory and all js libraries will be merged into one
 </html>
 ```
 ```jsx
-// main.js
+// @flow
 import React from 'react'
 import ReactDOM from 'react-dom'
 
