@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 var plugins = [];
-if (process.env.WEBPACK === 'release') {
+if (process.env.NODE_ENV === 'production') {
   plugins.push(new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } }));
 }
 

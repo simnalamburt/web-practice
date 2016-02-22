@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "flow",
-    "build": "flow && WEBPACK=release webpack",
+    "build": "flow && NODE_ENV=production webpack",
     "start": "webpack-dev-server"
   },
   "devDependencies": {
