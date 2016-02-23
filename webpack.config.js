@@ -23,7 +23,8 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.png$/, loader: 'file' },
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader') },
+      { test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css') },
+      { test: /\.styl$/, loader: ExtractTextPlugin.extract('style', 'css!stylus') },
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
