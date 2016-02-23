@@ -1,8 +1,8 @@
 {
   "scripts": {
     "test": "flow",
-    "build": "flow && NODE_ENV=production webpack",
-    "build_unchecked": "NODE_ENV=production webpack",
+    "build": "flow && NODE_ENV=production webpack -p",
+    "build_unchecked": "NODE_ENV=production webpack -p",
     "start": "webpack-dev-server"
   },
   "devDependencies": {

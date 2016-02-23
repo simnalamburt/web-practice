@@ -1,9 +1,9 @@
 var webpack = require('webpack');
 
-var plugins = [];
-if (process.env.NODE_ENV === 'production') {
-  plugins.push(new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } }));
-}
+var plugins = process.env.NODE_ENV !== 'production' ? [] : [
+  // Production only plugins
+  new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } })
+];
 
 module.exports = {
   entry: './src/main.js',
