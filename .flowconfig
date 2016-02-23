@@ -3,3 +3,6 @@
 .*/node_modules/fbjs
 .*/node_modules/.*\.json
 .*/build/.*
+
+[options]
+module.name_mapper='^.*\.css$' -> 'empty/object'
