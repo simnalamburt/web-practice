@@ -1,3 +1,5 @@
 [ignore]
-.*/node_modules/babel-*
+.*/node_modules/babel-.*
 .*/node_modules/fbjs
+.*/node_modules/.*\.json
+.*/build/.*
