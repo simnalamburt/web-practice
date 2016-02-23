@@ -7,3 +7,5 @@
 [options]
 module.name_mapper='^.*\.css$' -> 'empty/object'
 module.name_mapper='^.*\.styl$' -> 'empty/object'
+
+suppress_comment= \\(.\\|\n\\)*\\$FlowIssue
