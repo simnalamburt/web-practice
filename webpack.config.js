@@ -1,20 +1,21 @@
-var webpack = require('webpack');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 // Always enabled plugins
-var plugs = [
+const plugs = [
   new ExtractTextPlugin('_bundle.css')
 ];
 
 // Production only plugins
-var prod = [
+const prod = [
   new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } })
 ];
 
 module.exports = {
-  entry: './src/main.js',
+  context: `${__dirname}/src`,
+  entry: './main.js',
   output: {
-    path: 'build',
+    path: `${__dirname}/build`,
     publicPath: '/build/',
     filename: '_bundle.js'
   },
