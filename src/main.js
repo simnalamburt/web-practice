@@ -1,6 +1,7 @@
 // @flow
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'normalize.css/normalize.css'
 import './main.styl'
 
 ReactDOM.render(
