@@ -4,7 +4,5 @@
 .*/build/.*
 
 [options]
-module.name_mapper='^.*\.css$' -> 'empty/object'
-module.name_mapper='^.*\.styl$' -> 'empty/object'
-
+module.name_mapper='^.*\.\(css\|styl\|md\)$' -> 'empty/object'
 suppress_comment= \\(.\\|\n\\)*\\$FlowIssue
