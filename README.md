@@ -1,3 +1,7 @@
+**_Wait!_** Did you see [create-react-app](https://github.com/facebookincubator/create-react-app)?
+
+<br>
+
 Modern Web Practice
 ========
 > [Flow] + [Babel] + [Webpack] + [React] = *Promised Victory*
