@@ -1,4 +1,4 @@
-**_Wait!_** Did you see [create-react-app](https://github.com/facebookincubator/create-react-app)?
+**_Wait!_** Did you check [create-react-app]?
 
 <br>
 
@@ -20,8 +20,8 @@ yarn start      # Do everything except flow in watch mode
                 # Go to http://localhost:8080/webpack-dev-server/
 ```
 ###### See also
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-- [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+- [React Developer Tools]
+- [Redux DevTools]
 
 <br>
 
@@ -56,7 +56,10 @@ ReactDOM.render(
 );
 ```
 
+[create-react-app]: https://github.com/facebookincubator/create-react-app
 [Flow]: http://flowtype.org/
 [Babel]: https://babeljs.io/
 [React]: https://facebook.github.io/react/
 [Webpack]: https://webpack.github.io/
+[React Developer Tools]: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+[Redux DevTools]: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
