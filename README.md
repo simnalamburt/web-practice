@@ -56,6 +56,10 @@ ReactDOM.render(
 );
 ```
 
+--------
+
+[GNU AGPL 3.0 License](LICENSE.md)
+
 [create-react-app]: https://github.com/facebookincubator/create-react-app
 [Flow]: http://flowtype.org/
 [Babel]: https://babeljs.io/
