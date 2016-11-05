@@ -21,8 +21,10 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "babel-core": "^6.18.2",
     "normalize.css": "^5.0.0",
     "react": "^15",
-    "react-dom": "^15"
+    "react-dom": "^15",
+    "stylus": "^0.54.5"
   }
 }
